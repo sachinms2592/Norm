@@ -1,0 +1,34 @@
+
+main{
+	width: 1600px;
+	float:left;
+	/*text-align:left;*/
+}
+
+
+ul.products li {
+    width: 380px; /* adjust the size of the catalog block */
+	height:400px;
+    display: inline-block; /* this creates the catalog effect */
+    text-align: center; /* align the image to center */
+    background-color:gray ; /* background color of each */
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    border-radius: 10px; /* rounded borders effect */
+    border: 2px solid gray; /* border and color */
+	margin-bottom:5px;
+	margin-top:15px;
+	margin-right:20px;
+	
+}
+
+ul.products li:hover {
+    width: 380px; /* adjust the size of the catalog block */
+	height:400px;
+    display: inline-block; /* this creates the catalog effect */
+    text-align: center; /* align the image to center */
+    background-color:#77212E ; /* background color of each */
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    border-radius: 10px; /* rounded borders effect */
+    border: 2px solid #77212E; /* border and color */
+}
+

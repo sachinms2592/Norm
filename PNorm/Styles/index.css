@@ -1,0 +1,91 @@
+
+main{
+	width:1470px ;
+	float:left;
+	text-align:left;
+	padding-left:20px;
+	background-color:black;
+	}
+	
+	
+#homeparralax{
+	  
+	  background:linear-gradient(to bottom, rgba(0,0,0,0.8),rgba(0,0,0,0.1)),url("../Images/Projects (10).jpg") center no-repeat;
+	  height: 700px; 
+	  background-attachment: fixed;
+	  background-size: cover;
+	  top:3em;
+	  margin-top:5em;
+}
+
+#homeparralax h1{
+	font-family:Goudy Old Style;
+	color: white;
+	font-size:300%;
+	text-align:center;
+	padding-top: 10em;
+	padding-left:1.7em;
+}
+
+#sideplx{
+	  background:linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.5)),url("../Images/Products/23.8.jpg") center no-repeat;
+	  height: 700px; 
+	  background-attachment: fixed;
+	  background-size: cover;
+}
+
+#sideplx p{
+		position: relative;
+		top:2em;
+		float:right;
+		text-align:left;
+		font-size:1.5em;
+		color:	white;
+		width:650px;
+}
+
+#signup{
+	text-align:center;
+	background-image: white;
+	color:gray;
+	height: 300px;
+}
+
+#signup h1{
+padding-top:1.6em;
+}
+#signup img{
+	position:absolute;
+	top: 60em;
+	right:7em;
+	margin-left:400px;
+}
+
+#text1{
+	  padding: 12px 20px;
+      margin: 8px 0;
+	  height:7px;
+}
+
+#button1{
+  background-color: #77212E;
+  font-size: 20px;
+  padding: 6px 18px;
+  display:block;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid #77212E;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  margin-left:660px;
+  margin-top:15px;
+}
+
+#button1:hover {
+  background-color: white; 
+  color:#77212E;
+  font-weight:bold;
+
+}
+
+

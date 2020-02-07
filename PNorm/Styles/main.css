@@ -1,0 +1,121 @@
+
+html body{
+	width: 1600px;
+	background-color:black;
+	}
+
+header{	
+	height:5em;
+	background-color:black;
+}	
+main{
+	background-color:black;
+}
+header h1{
+	font-family: Rockwell;
+	text-align: left;
+	padding-left:1em;
+	color:  #77212E;
+	font-size:600%;
+	margin-top:1em;
+	}
+	
+header img{
+		padding-left:8px;
+	}
+
+
+#nav_menu{
+	position: absolute;
+	top: 5em;
+	padding:3px 5px;
+	right:5em;
+}
+#nav_menu ul{
+	list-style-type:none;
+	padding-right:10px;
+	position:relative;
+}
+#nav_menu ul li{
+	float:left;
+}
+
+#nav_menu ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+}
+#nav_menu ul ul li{
+	float:none;
+	position: relative;
+}
+#nav_menu ul ul li ul{
+	position:absolute;
+	left:100%;
+	top:0;
+}
+
+#nav_menu ul li:hover>ul{
+	display:block;
+	z-index:1;
+}
+#nav_menu>ul:after{
+	content: "";
+	clear:both;
+	display:block;
+}
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav_menu ul li a{
+
+	line-height: 110px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+	text-align:center;
+	display:block;
+	width:150px;
+	text-decoration:none;	
+}
+
+#nav_menu ul li:last-child{
+border-right:none;
+}
+
+#nav_menu ul li a:active{
+	color: green;
+}
+#nav_menu ul li a:hover{
+	color:#77212E;
+	font-weight: bold;
+}
+#nav_menu ul li a:focus{
+	
+	color:black;
+}	
+
+
+
+footer{
+	background-color:black;
+	clear:both;
+	padding-bottom:10px;
+    }
+footer p{
+	padding-top :25px;
+    text-align:center;
+	color:#77212E;
+}
+footer a{
+	color:#77212E;
+	text-decoration:none;
+}
+footer a:hover{
+	color:gray;
+	
+}
+
+
