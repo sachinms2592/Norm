@@ -20,7 +20,7 @@ main{
 
 #homeparralax h1{
 	font-family:Goudy Old Style;
-	color: black;
+	color: White;
 	font-size:300%;
 	text-align:center;
 	padding-top: 10em;
@@ -40,7 +40,7 @@ main{
 		float:right;
 		text-align:left;
 		font-size:1.5em;
-		color:	black;
+		color:	white;
 		width:650px;
 }
 
@@ -73,7 +73,7 @@ padding-top:1.6em;
   padding: 6px 18px;
   display:block;
   border-radius: 5px;
-  color: black;
+  color: white;
   border: 2px solid #77212E;
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
