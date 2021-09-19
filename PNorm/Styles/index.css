@@ -4,7 +4,7 @@ main{
 	float:left;
 	text-align:left;
 	padding-left:20px;
-	background-color:black;
+	background-color:white;
 	}
 	
 	
@@ -20,7 +20,7 @@ main{
 
 #homeparralax h1{
 	font-family:Goudy Old Style;
-	color: white;
+	color: black;
 	font-size:300%;
 	text-align:center;
 	padding-top: 10em;
@@ -40,13 +40,13 @@ main{
 		float:right;
 		text-align:left;
 		font-size:1.5em;
-		color:	white;
+		color:	black;
 		width:650px;
 }
 
 #signup{
 	text-align:center;
-	background-image: white;
+	background-image: black;
 	color:gray;
 	height: 300px;
 }
@@ -73,7 +73,7 @@ padding-top:1.6em;
   padding: 6px 18px;
   display:block;
   border-radius: 5px;
-  color: white;
+  color: black;
   border: 2px solid #77212E;
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
